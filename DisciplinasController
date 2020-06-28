@@ -1,0 +1,23 @@
+# Laboratorio-1
+package br.ufpb.minicurso.ap1.controladores;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+@RestController
+public class DisciplinasController {
+	@Autowired
+	private DisciplinasService disciplinaService;
+	
+	@PostMapping("/v1/api/disciplinas")
+	public{
+		
+	}
+	
+	@GetMapping("/v1/api/disciplinas")
+	public RepositoryEntity<Disciplinas> GetDisciplinas(@RequestParse()) {
+		return 
+	}
+	
+	
+}
